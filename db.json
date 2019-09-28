@@ -1,11 +1,29 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "servers":{
+      "vultr-la":{
+         "id":"a2nv",
+         "ipv4":"149.28.90.156",
+         "ipv6":"2001:19f0:6001:483c:5400:02ff:fe51:a53d"
+      },
+      "vultr-miami":{
+         "id":"a2pn",
+         "ipv4":"140.82.27.106",
+         "ipv6":"2001:19f0:9002:121d:5400:02ff:fe51:b84e"
+      },
+      "vultr-sydney":{
+         "id":"a1hh",
+         "ipv4":"45.63.25.102",
+         "ipv6":"2401:c080:1800:4008:5400:02ff:fe4b:5a46"
+      },
+      "vultr-amsterdam":{
+         "id":"a2k8",
+         "ipv4":"185.92.221.77",
+         "ipv6":"2001:19f0:5001:30d1:5400:02ff:fe51:31a6"
+      },
+      "vultr-singapore":{
+         "id":"a2qj",
+         "ipv4":"45.32.116.218",
+         "ipv6":"2401:c080:1400:4b49:5400:02ff:fe51:bddc"
+      }
+   }
 }
