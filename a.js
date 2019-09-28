@@ -3,7 +3,7 @@ m28n.findServerPreference = function findServerPreference(endpoint, options, cb)
             cb = options;
             options = {};
         }
-        findServers(endpoint, options, function(err, r) {
+        m28n.findServers(endpoint, options, function(err, r) {
             if (err)
                 return cb(err);
             if (!r)
@@ -27,7 +27,7 @@ m28n.findServerPreference = function findServerPreference(endpoint, options, cb)
                     return;
                 }
             }
-            findRegionPreference(availableRegions, options, function(err, regionList) {
+            m28n.findRegionPreference(availableRegions, options, function(err, regionList) {
                 if (err)
                     return cb(err);
                 var serverList = regionList.map(function(region) {
